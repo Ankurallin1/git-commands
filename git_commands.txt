@@ -1,0 +1,23 @@
+cd Tindog ->move current directory to Tindog directory
+ls -> all file in current directory
+cd .. ->move back to orignal directory
+git config --global user.email "ankursrivastava2070@gmail.com" -> used to set the user email
+git config --global user.name "ankur srivastava" -> used to set the name email
+whoami -> user name of the system
+pwd -> print working directory
+ls -l -> all file in current directory with size date everything
+ls -f -> tells you all tailing file which have sub file
+
+git help -> all commands
+git init ->Initialized empty repository
+git status -> tells you current status of your git wether it commits or not push everything
+touch demo.txt-> used to create a empty file
+git add demo.txt -> it will add demo file in current working directory
+git commit -m "" ->save your changes
+git remote add origin "your github repo url" -> add remote repo with name origin
+git remote set-url origin "your github repo url" -> link local repository with public github repository 
+git push origin master -> push your changes to your public repo
+
+ 
+
+

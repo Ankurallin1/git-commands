@@ -17,6 +17,7 @@ git commit -m "" ->save your changes
 git remote add origin "your github repo url" -> add remote repo with name origin
 git remote set-url origin "your github repo url" -> link local repository with public github repository 
 git push origin master -> push your changes to your public repo
+git clone url/https/ssh -> it will clone the file in the current working directory
 
  
 

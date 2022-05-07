@@ -27,6 +27,19 @@ git checkout master -> it will switch from main branch to master
 git checkout -b test -> it will create a new branch test and switch from current branch to it
 git push --set-upstream origin test -> it will push the branch in the github
 git rm -r folder_name -> it will delete the folder in the repo after that commit it and than push it.
+git merge master -> it will merge the content in the the master to main
+git diff -> it tell you how many lines are added in the file
+git branch -d master -> it will delete the master branch locally not on github
+git branch --remotes --delete origin/master -> delete remote branch from github to
+
+
+In order to restore the deleted branch just go where you delete it
+there will be a garbage id written like 
+----->Deleted remote-tracking branch origin/master (was b9e85e8).
+Now write 
+-git checkout b9e85e8
+-git checkout -b master 
+This will restore your branch
 
 
  

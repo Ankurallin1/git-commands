@@ -27,6 +27,7 @@ git checkout master -> it will switch from main branch to master
 git checkout -b test -> it will create a new branch test and switch from current branch to it
 git push --set-upstream origin test -> it will push the branch in the github
 git rm -r folder_name -> it will delete the folder in the repo after that commit it and than push it.
+git reflog -> show all the branch with there files
 git merge master -> it will merge the content in the the master to main
 git diff -> it tell you how many lines are added in the file
 git branch -d master -> it will delete the master branch locally not on github
@@ -41,7 +42,13 @@ Now write
 -git checkout -b master 
 This will restore your branch
 
+~/.ssh/config -> it will move to ssh folder without the path given
+mkdir file_name-> create a file in the current working directory
+git pull origin master -> it will copy all the content of master in current working directory
 
- 
 
+Two github id in one git-bash
+git config --global user.email "201b049@juetguna.in" --> change the email id to second mail id
+give access -->give access by fork through second id or add id to collaborators
+push your commands -->git push your files than generate a pull request
 

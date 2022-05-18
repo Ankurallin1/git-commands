@@ -7,6 +7,17 @@ whoami -> user name of the system
 pwd -> print working directory
 ls -l -> all file in current directory with size date everything
 ls -f -> tells you all tailing file which have sub file
+cd dow+tab --> automatically gives cd downloads
+ctrl+u --> clear your current command input
+option key --> it use to navigate any point in the command input
+ctrl+a --> brings you to the beginning of the command
+ctrl+e --> bring you to the end of the command
+start filename --> it will open the file in default(notepad)
+start atom filename --> it will open file in atom
+rm filename --> remove file or delete it
+rm * --> remove all file inside the directory
+rm -r foldername --> delete folder
+wsl --> windows subsytem for linux
 
 git help -> all commands
 git init ->Initialized empty repository

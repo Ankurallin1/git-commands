@@ -52,9 +52,3 @@ git config --global user.email "201b049@juetguna.in" --> change the email id to 
 give access -->give access by fork through second id or add id to collaborators
 push your commands -->git push your files than generate a pull request
 
-To add remote to existing file
-❤git init
-❤git remote add origin url
-❤git pull origin main
-❤now add your file commit it and then push it
-

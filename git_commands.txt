@@ -69,3 +69,6 @@ To add remote to existing file
 ❤git pull origin main
 ❤now add your file commit it and then push it
 
+
+To revert the changes we can use 
+❤git checkout file_name --> it like moveing to previous version

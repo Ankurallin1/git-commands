@@ -71,4 +71,12 @@ To add remote to existing file
 
 
 To revert the changes we can use 
-❤git checkout file_name --> it like moveing to previous version
+❤git checkout file_name --> it like moving to previous version
+
+To uncommit the stage changes we use :
+❤git rm --cached -r .
+
+To secure the secret file such as api key,password we can place it in .gitignore
+❤touch .gitignore --> to create a git ignore file
+❤open .gitignore --> it will open git ignore in notepad
+❤now place the file name you want to keep it safe with proper extension

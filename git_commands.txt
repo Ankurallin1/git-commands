@@ -8,6 +8,7 @@ pwd -> print working directory
 ls -l -> all file in current directory with size date everything
 ls -f -> tells you all tailing file which have sub file
 cd dow+tab --> automatically gives cd downloads
+
 ctrl+u --> clear your current command input
 option key --> it use to navigate any point in the command input
 ctrl+a --> brings you to the beginning of the command
@@ -73,8 +74,12 @@ To add remote to existing file
 To revert the changes we can use 
 ❤git checkout file_name --> it like moving to previous version
 
-To uncommit the stage changes we use :
+To uncommit the stage changes in local :
 ❤git rm --cached -r .
+
+To uncommit the pushed changes on github :
+❤git reset HEAD~1  --> delete the recent 1st commit
+❤git push -f origin main  --> force push
 
 To secure the secret file such as api key,password we can place it in .gitignore
 ❤touch .gitignore --> to create a git ignore file

@@ -80,3 +80,17 @@ To secure the secret file such as api key,password we can place it in .gitignore
 ❤touch .gitignore --> to create a git ignore file
 ❤open .gitignore --> it will open git ignore in notepad
 ❤now place the file name you want to keep it safe with proper extension
+
+Some cool git commands
+git gc -> remove loose objects, no looger needed
+git lfs -> allow you to use git Large File Storage
+git stash -> save the staged changes 
+git cherry pick -> transfer commits from one branch to other
+git restore --staged filename -> this will remove the changes
+git reset commit(hash) -> move head to this hash and remove all above commit
+
+git rebase -i commit(hash) -> open a interface with pick,squash options this will merge commit into one
+pick -> taking this commit
+squash -> merge in above commit
+esc + : + x -> allow  you to write merged commit msg
+ 
